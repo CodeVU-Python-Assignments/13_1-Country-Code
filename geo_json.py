@@ -41,7 +41,7 @@ while True:
     if not js or 'status' not in js or js['status'] != 'OK':
         print('==== Failure To Retrieve ====')
         print(data)
-        continue
+
 
     print(json.dumps(js, indent=4))
 
@@ -50,4 +50,5 @@ while True:
     print('lat', lat, 'lng', lng)
     location = js['results'][0]['formatted_address']
     print(location)
+
 
