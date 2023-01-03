@@ -23,3 +23,5 @@ Country Code: BR
 Enter location: Atlantic Ocean
 No country code found.
 ```
+
+test_get_geo_codes.py contains test code.  When all tests pass, you are good to go.  You can run the file using pytest.
