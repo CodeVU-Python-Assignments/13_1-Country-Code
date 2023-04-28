@@ -24,4 +24,9 @@ Enter location: Atlantic Ocean
 No country code found.
 ```
 
+# Tip
+Looks at the json and xml example. 
+That said, feel free to explore getting yourself an api key and feel free to experiment with the requests library!
+
+# Test
 test_get_geo_codes.py contains test code.  When all tests pass, you are good to go.  You can run the file using pytest.
