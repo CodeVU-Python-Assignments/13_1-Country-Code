@@ -10,5 +10,5 @@ def print_country_code_from_geocoding() -> None:
 
 
 # The original examples are a loop, write this to run once
-if __name__ == "main":
+if __name__ == "__main__":
     print_country_code_from_geocoding()
